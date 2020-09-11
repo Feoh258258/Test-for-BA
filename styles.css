@@ -53,7 +53,13 @@
 }
 
 @media (max-width: 620px) {
-  table {
+  .table {
     font-size: 11px;
+  }
+}
+
+@media (min-width: 850px) { 
+  .table {
+    margin: 0 auto;
   }
 }
